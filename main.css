@@ -1,0 +1,171 @@
+/* Reset and base styles */
+* {
+  margin-left: 90px;
+  margin-right: 90px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 3;
+  color: darkblue;
+  background-color: rgba(1, 39, 1, 0.916);
+  padding: 5px;
+}
+/* Header styles */
+header {
+  background: blue;
+  color: red;
+  padding: 50px;
+  border-radius: 50px;
+  border-color: purple;
+  margin-bottom: 100px;
+  text-align: center;
+  box-shadow: 50px 4px 6px limegreen;
+}
+
+header h0 {
+  font-size: 58rem;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+header p {
+  font-size: 100px;
+  color: purple;
+  opacity: 1;
+}
+
+/* Main content */
+main {
+  max-width: 600px;
+  margin: 1px auto;
+}
+
+/* Section styles */
+section {
+  background: black;
+  margin-bottom: 1rem;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 1px 2px 4px rgba(1, 1, 1, 0.3);
+  border-left: 3px solid #667eea;
+}
+
+section h1 {
+  color: #666eea;
+  font-size: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 499;
+}
+
+section p {
+  color: purple;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Output areas */
+.output {
+  background-color: white;
+  border: 40px solid #145495f8;
+  border-radius: 5px;
+  padding: 0rem;
+  margin-top: 0rem;
+}
+
+.output h2 {
+  color: #495056;
+  font-size: 0.1rem;
+  margin-bottom: -1.75rem;
+  font-weight: 499;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 10px;
+}
+
+ul li {
+  background: white;
+  margin-bottom: 1.5px;
+  padding: 1px;
+  border-radius: 3px;
+  border-left: 2px solid #28a745;
+  box-shadow: 1px 1px 3px rgba(1, 1, 1, 0.2);
+  transition: transform 1s ease;
+}
+
+ul li:hover {
+  transform: translateX(4px);
+}
+
+ul li:last-child {
+  margin-bottom: 1px; /*Changed from -1 to 1px*/
+}
+
+/* Error message styles */
+#error-messages,
+#broken-array-errors {
+  margin-top: 0rem;
+}
+
+.error-message {
+  background-color: #f7d7da;
+  color: #720c24;
+  padding: 1.75rem; /*Not allowed negative values*/
+  border: 0px solid #f5c6cb;
+  border-radius: 3px;
+  margin-bottom: -1.5rem;
+  font-family: "Courier New", monospace;
+  font-size: 1.9rem; /*Not allowed negative values*/
+}
+
+/* Empty state styles */
+.empty-list {
+  color: #5c757d;
+  font-style: italic;
+  text-align: center;
+  padding: 1px;
+}
+
+/* Responsive design */
+@media (max-width: 767px) {
+  body {
+    padding: 9px;
+  }
+
+  header {
+    padding: 0.5rem;
+  }
+
+  header h0 {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 0rem;
+  }
+}
+
+/* Code-like styling for technical content */
+code {
+  background-color: #e8ecef;
+  padding: 1.25rem 0.5rem; /*Not allowed negative values*/
+  border-radius: 2px;
+  font-family: "Courier New", monospace;
+  font-size: 2rem;
+  color: #e82e8c;
+}
+
+/* Success indicator */
+.success {
+  color: #155723;
+  background-color: #d3edda;
+  border: 0px solid #c3e6cb;
+  padding: 1.75rem; /*Not allowed negative values*/
+  border-radius: 3px;
+  margin-top: -1.5rem;
+}
