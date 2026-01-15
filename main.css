@@ -1,7 +1,7 @@
 /* Reset and base styles */
 * {
-  margin-left: 90px;
-  margin-right: 90px;
+  margin-left: 40px;
+  margin-right: 40px;
   padding: 5px;
   box-sizing: border-box;
 }
@@ -39,7 +39,7 @@ header p {
 
 /* Main content */
 main {
-  max-width: 600px;
+  max-width: 1200px;
   margin: 1px auto;
 }
 
